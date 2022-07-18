@@ -9,7 +9,7 @@
 		<Platforms>AnyCPU;x86;x64</Platforms>
 	</PropertyGroup>
 	<ItemGroup>
-		<PackageReference Include="OpenSilver" Version="1.1.0-preview-2022-07-12-103048-06467da1" />
+		<PackageReference Include="OpenSilver" Version="1.0.0-private-2022-07-16-cp-datacontext" />
 		<Compile Include="App.xaml.cs">
 			<DependentUpon>App.xaml</DependentUpon>
 		</Compile>
