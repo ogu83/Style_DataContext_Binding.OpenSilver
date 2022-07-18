@@ -1,0 +1,18 @@
+﻿<configuration>
+    <system.serviceModel>
+        <!-- Denna filen används inte längre. Se Combine.Common.Silverlight.Proxy.BindingSelector och ServiceClient-->
+        <bindings>
+            <basicHttpBinding>
+                <binding name="BasicHttpBinding_IServiceRequestLog" maxBufferSize="2147483647"
+                    maxReceivedMessageSize="2147483647">
+                    <security mode="Transport" />
+                </binding>
+            </basicHttpBinding>
+        </bindings>
+        <client>
+            <endpoint address="https://logga.pulsencombine.se/logga_1_24/LogService.svc"
+                binding="basicHttpBinding" bindingConfiguration="BasicHttpBinding_IServiceRequestLog"
+                contract="ServiceRequestLogService.IServiceRequestLog" name="BasicHttpBinding_IServiceRequestLog" />
+        </client>
+    </system.serviceModel>
+</configuration>

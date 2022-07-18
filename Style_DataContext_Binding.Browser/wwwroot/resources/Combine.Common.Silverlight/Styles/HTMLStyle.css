@@ -1,0 +1,56 @@
+﻿
+.h1
+{
+    border-style:solid;  
+    border-width:1px; 
+    color:  #000000;
+}  
+.smalltext
+{
+    color: #00ffff;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 12px;
+}
+.smalltext1
+{
+    color: #FF66FF;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+.smalltext2
+{
+    color: #330033;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 10px;
+}
+.smalltext3
+{
+    color: #CC33CC;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 10px;
+}
+.smalltext4
+{
+    color: #FF0033;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 10px;
+}
+.smalltext5
+{
+    color: #00FF66;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 10px;
+}
+.para
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.header
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 42px;
+    font-weight: bold;
+    color: #1A2373;
+}
