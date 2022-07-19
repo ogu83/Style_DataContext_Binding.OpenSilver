@@ -18,6 +18,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PrivatePackages", "PrivatePackages", "{E96C09BA-E29B-4812-AD3C-14F4F4EA5D1C}"
 	ProjectSection(SolutionItems) = preProject
 		PrivatePackages\OpenSilver.1.0.0-private-2022-07-16-cp-datacontext.nupkg = PrivatePackages\OpenSilver.1.0.0-private-2022-07-16-cp-datacontext.nupkg
+		PrivatePackages\OpenSilver.1.0.0-private-2022-07-18.nupkg = PrivatePackages\OpenSilver.1.0.0-private-2022-07-18.nupkg
 	EndProjectSection
 EndProject
 Global
