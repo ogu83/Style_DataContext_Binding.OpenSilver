@@ -175,7 +175,7 @@
                                             <Path x:Name="Path1" Width="15" Height="30" Canvas.Left="0" Stretch="Fill" StrokeThickness="0" StrokeLineJoin="Round" Stroke="#FF000000" Fill="DarkBlue" Data="F1 M 0,262C 68.5251,257.538 122.724,200.544 122.724,130.891C 122.724,62.2145 70.035,5.84472 2.87519,-7.62939e-006L 129.724,-7.62939e-006L 129.724,262L 0,262 Z " UseLayoutRounding="False"/>
                                         </Canvas>
                                         <!-- header -->
-                                        <Rectangle Margin="0" Grid.Column="1" Grid.Row="0" Fill="DarkBlue" StrokeThickness="0" Height="30"/>
+                                        <Rectangle Grid.Column="1" Grid.Row="0" Fill="DarkBlue" StrokeThickness="0" Height="30" Margin="-2,1,-2,1"/>
                                         <ContentControl x:Name="HeaderTopSelected" Cursor="{TemplateBinding Cursor}" IsTabStop="False" Grid.Column="1" HorizontalAlignment="Center" Margin="3" VerticalAlignment="Center" FontFamily="Tahoma" Foreground="White" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch"/>
                                         <Canvas x:Name="Layer_2" Width="15" Height="30" Grid.Column="2">
                                             <Path x:Name="Path2" Width="15" Height="30" Canvas.Left="0" Stretch="Fill" StrokeThickness="0" StrokeLineJoin="Round" Stroke="#FF000000" Fill="DarkBlue" Data="F1 M 130.834,130.917C 130.834,203.192 72.2653,261.789 0,261.833L 0,7.62939e-006C 72.2654,0.0445938 130.834,58.6409 130.834,130.917 Z " UseLayoutRounding="False"/>
@@ -202,7 +202,7 @@
                                             <Path x:Name="Path3" Width="15" Height="30" Canvas.Left="0" Stretch="Fill" StrokeThickness="0" StrokeLineJoin="Round" Stroke="#FF000000" Fill="#FF6F8DAD" Data="F1 M 0,262C 68.5251,257.538 122.724,200.544 122.724,130.891C 122.724,62.2145 70.035,5.84472 2.87519,-7.62939e-006L 129.724,-7.62939e-006L 129.724,262L 0,262 Z " UseLayoutRounding="False"/>
                                         </Canvas>
 
-                                        <Rectangle x:Name="rectangle" Fill="#FF6F8DAD" Grid.Column="1" StrokeThickness="0"/>
+                                        <Rectangle x:Name="rectangle" Fill="#FF6F8DAD" Grid.Column="1" StrokeThickness="0" Height="30" Margin="-2,-1,-2,-1"/>
                                         <ContentControl x:Name="HeaderTopUnselected" Cursor="{TemplateBinding Cursor}" IsTabStop="False" Grid.Column="1" HorizontalAlignment="Center" Margin="3" VerticalAlignment="Center" FontFamily="Tahoma" Foreground="White" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch"/>
 
                                         <!-- sista delen i processpilen -->
